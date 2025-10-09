@@ -1,0 +1,74 @@
+.contact-section {
+  padding: 7rem 2rem 4rem 2rem;
+  background: #474754;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px rgba(37,99,235,0.12);
+}
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.contact-links {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.contact-name {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #eae9e5;
+}
+.contact-link{
+  background: #4d4d5c;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: background 0.2s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.contact-link:hover {
+  background: #575768;
+  box-shadow: 0 0 16px #18181b, 0 0 32px #2563eb;
+}
+.contact-link:hover {
+  background: #444c5c;
+  box-shadow: 0 0 16px #18181b, 0 0 32px #2563eb;
+}
+.contact-link .contact-icon {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 12px #2563eb, 0 0 24px #18181b;
+  padding: 0.3rem;
+  width: 48px;
+  height: 48px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.contact-link:hover .contact-icon {
+  box-shadow: 0 0 24px #ffd700, 0 0 48px #2563eb;
+  transform: scale(1.12);
+}
+.linkedin-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 0.7rem;
+}
+
+@media (max-width: 640px) {
+  .contact-links { flex-direction: column; gap: 0.8rem; }
+  .contact-link, .linkedin-btn { width: 100%; justify-content: center; }
+  .contact-link .contact-icon { width: 40px; height: 40px; }
+  .contact-name { font-size: 1rem; }
+}

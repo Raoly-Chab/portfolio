@@ -1,0 +1,15 @@
+.download-btn {
+  background: linear-gradient(120deg, #14171c 0%, #18181b 100%);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background 0.2s;
+  display: inline-block;
+  margin-top: 2rem;
+}
+.download-btn:hover {
+  background: #272d39;
+}

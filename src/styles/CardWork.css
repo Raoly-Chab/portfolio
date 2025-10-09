@@ -1,0 +1,115 @@
+.work-section {
+  padding: 7rem 2rem 4rem 2rem;
+  background: #474754;
+  color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px rgba(37,99,235,0.12);
+  max-width: 1200px;
+  margin: 0 auto 2rem auto;
+}
+.work-cards {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work-card {
+  background: #18181b;
+  color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 4px 24px rgba(37,99,235,0.10);
+  padding: 3rem 2rem;
+  width: 100%;
+  min-height: 220px;
+  font-size: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: fadeIn 1.2s ease;
+}
+.work-card:hover {
+  box-shadow: 0 8px 32px #2563eb55;
+  transform: scale(1.04);
+}
+.work-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 1rem;
+  background: #fff;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 8px #2563eb33;
+  display: block;
+  transition: transform 0.3s;
+}
+.work-card:hover .work-logo {
+  transform: scale(1.12);
+}
+.work-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.work-card h4 {
+  font-size: 1.1rem;
+  color: #39372b;
+  margin-bottom: 0.7rem;
+  font-weight: 600;
+}
+.work-card p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #fff;
+}
+.work-date {
+  font-size: 1.05rem;
+  color: #fff;
+  margin-top: auto;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.work-card:nth-child(1) { background: #2563eb; color: #fff; }
+.work-card:nth-child(2) { background: #f59e42; color: #18181b; }
+.work-card.work-card-center {
+  background: #e5e7eb;
+  color: #18181b;
+  border-radius: 2rem;
+  box-shadow: 0 4px 24px rgba(37,99,235,0.10);
+  padding: 3rem 2rem;
+  width: 100%;
+  min-height: 260px;
+  font-size: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.work-card.work-card-center h3,
+.work-card.work-card-center h4,
+.work-card.work-card-center .work-date {
+  color: #18181b;
+  text-align: center;
+}
+.work-logo-large {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 1.5rem;
+  background: #fff;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px #2563eb33;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .work-section { padding: 3.5rem 1rem; }
+  .work-card { padding: 1.4rem; }
+  .work-logo { width: 48px; height: 48px; }
+  .work-logo-large { width: 100px; height: 100px; }
+}

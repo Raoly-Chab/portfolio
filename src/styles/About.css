@@ -1,0 +1,133 @@
+.about-section {
+  padding: 7rem 2rem 4rem 2rem;
+
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.about-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.about-cards-row {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.about-card {
+  background: #1d1d2e;
+  color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 4px 24px rgba(37,99,235,0.10);
+  padding: 2.5rem 2rem;
+  width: 100%;
+  font-size: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: fadeIn 1.2s ease;
+}
+.about-card-photo {
+  min-width: 200px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-card:hover {
+  box-shadow: 0 8px 32px #2563eb55;
+  transform: scale(1.04);
+}
+.about-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 16px #2563eb33;
+  margin-bottom: 1.2rem;
+  transition: transform 0.3s;
+}
+.about-card:hover .about-photo {
+  transform: scale(1.08);
+}
+.about-card h2 {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.about-card p {
+  font-size: 1.15rem;
+  margin-bottom: 0.7rem;
+  line-height: 1.6;
+}
+.about-card strong {
+  color: #2563eb;
+}
+.about-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(24,24,27,0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+.about-modal {
+  background: #18181b;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  box-shadow: 0 8px 32px #2563eb33;
+  min-width: 320px;
+  max-width: 90vw;
+  position: relative;
+  text-align: center;
+}
+.about-card { width: 100%; }
+
+@media (min-width: 900px) {
+  .about-card { max-width: 340px; }
+}
+
+@media (max-width: 640px) {
+  .about-cards { flex-direction: column; gap: 1.2rem; padding: 1rem; }
+  .about-card { padding: 1.2rem; }
+  .about-photo { width: 120px; height: 120px; }
+}
+.about-modal-close {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.2rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.about-modal-close:hover {
+  background: #ffd700;
+  color: #18181b;
+}
+.about-cards-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: stretch;
+}
