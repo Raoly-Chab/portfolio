@@ -1,13 +1,10 @@
 .footer {
-  background: #343942;
-  color: #fff;
-  padding: 2.5rem 0 1.5rem 0;
+  background: #18181b;
+  color: #f2f4f7;
   text-align: center;
-  border-top: 1px solid #2563eb33;
-  margin-top: 3rem;
-  border-radius: 2rem 2rem 0 0;
-  box-shadow: 0 4px 24px rgba(37,99,235,0.10);
-  font-size: 1.15rem;
+  padding: 1.5rem 0;
+  font-size: 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 

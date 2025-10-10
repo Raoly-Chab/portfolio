@@ -67,8 +67,9 @@
 }
 
 @media (max-width: 640px) {
-  .contact-links { flex-direction: column; gap: 0.8rem; }
-  .contact-link, .linkedin-btn { width: 100%; justify-content: center; }
+  .contact-section { padding: 5rem 1rem 2rem 1rem; }
+  .contact-links { gap: 1.5rem; }
+  .contact-link { padding: 0.6rem 1.2rem; font-size: 1rem; }
   .contact-link .contact-icon { width: 40px; height: 40px; }
-  .contact-name { font-size: 1rem; }
+  .linkedin-icon { width: 24px; height: 24px; margin-right: 0.5rem; }
 }

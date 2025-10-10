@@ -1,17 +1,12 @@
 .navbar2 {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: linear-gradient(120deg, #2f2f3f 60%, #2b4272 100%);
-  color: #fff;
-  box-shadow: 0 4px 24px rgba(37,99,235,0.10);
-  z-index: 100;
   display: flex;
-  justify-content: center;
-  border-radius: 0 0 2rem 2rem;
-  font-size: 1.15rem;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(120deg, #2f2f3f 60%, #2b4272 100%);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .navbar2 ul {
   display: flex;
   gap: 2.5rem;
