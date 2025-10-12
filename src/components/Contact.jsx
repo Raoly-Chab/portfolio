@@ -23,7 +23,7 @@ const Contact = () => {
           <span className="contact-name">raoly.koumou@gmail.com</span>
         </a>
         <a
-          href="https://www.linkedin.com/in/raoly-koumou/"
+          href="https://www.linkedin.com/in/raoly-koumou-6244b5300/"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-link"
