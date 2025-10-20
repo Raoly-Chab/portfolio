@@ -10,8 +10,6 @@ const projects = [
     tools: ['flask', 'SQLite', 'raspberry pi'],
     goal: "HAVEN Network est une plateforme de communication locale conçue pour fonctionner sans connexion Internet, hébergée directement sur un Raspberry Pi transformé en point d’accès Wi-Fi.",
     description: "HAVEN Network, une plateforme de communication locale hébergée sur un Raspberry Pi. Le projet visait à créer un système de messagerie et de partage de fichiers accessible via un point d’accès Wi-Fi, sans nécessiter de connexion Internet.",
-
-
   },
 
   {
